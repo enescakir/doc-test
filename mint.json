@@ -8,12 +8,8 @@
   "favicon": "/favicon.svg",
   "colors": {
     "primary": "#FF5C12",
-    "light": "#07C983",
-    "dark": "#0D9373",
-    "anchors": {
-      "from": "#0D9373",
-      "to": "#07C983"
-    }
+    "light": "#FF5C12",
+    "dark": "#FF5C12"
   },
   "topbarLinks": [
     {
@@ -22,8 +18,8 @@
     }
   ],
   "topbarCtaButton": {
-    "name": "Dashboard",
-    "url": "https://dashboard.mintlify.com"
+    "name": "Console",
+    "url": "https://console.ubicloud.com"
   },
   "tabs": [
     {
