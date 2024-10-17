@@ -72,18 +72,6 @@
         "architecture/control-and-data-plane",
         "architecture/attribute-based-access-control-abac"
       ]
-    },
-    {
-      "group": "Essentials",
-      "pages": [
-        "essentials/markdown",
-        "essentials/code",
-        "essentials/images",
-        "essentials/settings",
-        "essentials/navigation",
-        "essentials/reusable-snippets",
-        "quickstart"
-      ]
     }
    ],
   "footerSocials": {
