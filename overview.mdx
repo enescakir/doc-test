@@ -2,6 +2,11 @@
 title: Overview
 ---
 
+import { Link } from '/snippets/link.mdx';
+import { Callout } from '/snippets/callout.mdx';
+
+<Callout text="Reduce costs. Avoid lock-in. Win back your infrastructure." />
+
 ## What is Ubicloud?
 
 Ubicloud is an open, free, and portable cloud. Think of it as an alternative to public cloud providers, like what Linux is to proprietary operating systems.
@@ -23,7 +28,7 @@ Example workloads/reasons to use Ubicloud today include:
 
 ## Licenses
 
-Our GitHub repo is here: [https://github.com/ubicloud/ubicloud](https://github.com/ubicloud/ubicloud) available to use for free under the GNU Affero General Public License version 3 (AGPL v3).
+Our GitHub repo is here: <Link url="https://github.com/ubicloud/ubicloud"/> available to use for free under the GNU Affero General Public License version 3 (AGPL v3).
 
 ## Product
 Ubicloud is in public alpha. You can provide us with feedback, get help, or ask us to support your bare metal provide by sending us an email at [support@ubicloud.com](mailto:support@ubicloud.com)
@@ -37,71 +42,3 @@ Ubicloud is in public alpha. You can provide us with feedback, get help, or ask 
   - Attribute-Based Access Control (ABAC) - Define roles for different users. Provide fine-grained access control
   - Control plane - Communicates with the data plane using SSH and manages resources
   - Cloud console - A dashboard for users to use cloud services
-
-
-<img
-  className="block dark:hidden"
-  src="/images/hero-light.svg"
-  alt="Hero Light"
-/>
-<img
-  className="hidden dark:block"
-  src="/images/hero-dark.svg"
-  alt="Hero Dark"
-/>
-
-## Setting up
-
-The first step to world-class documentation is setting up your editing environments.
-
-<CardGroup cols={2}>
-  <Card
-    title="Edit Your Docs"
-    icon="pen-to-square"
-    href="https://mintlify.com/docs/quickstart"
-  >
-    Get your docs set up locally for easy development
-  </Card>
-  <Card
-    title="Preview Changes"
-    icon="image"
-    href="https://mintlify.com/docs/development"
-  >
-    Preview your changes before you push to make sure they're perfect
-  </Card>
-</CardGroup>
-
-## Make it yours
-
-Update your docs to your brand and add valuable content for the best user conversion.
-
-<CardGroup cols={2}>
-  <Card
-    title="Customize Style"
-    icon="palette"
-    href="https://mintlify.com/docs/settings/global"
-  >
-    Customize your docs to your company's colors and brands
-  </Card>
-  <Card
-    title="Reference APIs"
-    icon="code"
-    href="https://mintlify.com/docs/api-playground/openapi"
-  >
-    Automatically generate endpoints from an OpenAPI spec
-  </Card>
-  <Card
-    title="Add Components"
-    icon="screwdriver-wrench"
-    href="https://mintlify.com/docs/components/accordion"
-  >
-    Build interactive features and designs to guide your users
-  </Card>
-  <Card
-    title="Get Inspiration"
-    icon="stars"
-    href="https://mintlify.com/customers"
-  >
-    Check out our showcase of our favorite documentation
-  </Card>
-</CardGroup>

@@ -30,19 +30,20 @@
   "tabs": [
     {
       "name": "API Reference",
-      "url": "api-reference"
+      "url": "api-reference",
+      "openapi": "/api-reference/openapi.yml"
     }
   ],
   "anchors": [
     {
       "name": "Documentation",
       "icon": "book-open-cover",
-      "url": "https://mintlify.com/docs"
+      "url": "https://mintlify.com/community"
     },
     {
-      "name": "Community",
-      "icon": "slack",
-      "url": "https://mintlify.com/community"
+      "name": "API Reference",
+      "url": "api-reference",
+      "icon": "square-terminal"
     },
     {
       "name": "Blog",
@@ -52,11 +53,24 @@
   ],
   "navigation": [
     {
-      "group": "Get Started",
+      "group": "",
       "pages": [
-        "overview",
-        "quickstart",
-        "development"
+        "overview"
+      ]
+    },
+    {
+      "group": "Quickstart",
+      "pages": [
+        "quickstart/managed-services",
+        "quickstart/build-your-own-cloud",
+        "quickstart/using-kamal-with-ubicloud"
+      ]
+    },
+    {
+      "group": "Architecture",
+      "pages": [
+        "architecture/control-and-data-plane",
+        "architecture/attribute-based-access-control-abac"
       ]
     },
     {
@@ -67,24 +81,11 @@
         "essentials/images",
         "essentials/settings",
         "essentials/navigation",
-        "essentials/reusable-snippets"
-      ]
-    },
-    {
-      "group": "API Documentation",
-      "pages": [
-        "api-reference/introduction"
-      ]
-    },
-    {
-      "group": "Endpoint Examples",
-      "pages": [
-        "api-reference/endpoint/get",
-        "api-reference/endpoint/create",
-        "api-reference/endpoint/delete"
+        "essentials/reusable-snippets",
+        "quickstart"
       ]
     }
-  ],
+   ],
   "footerSocials": {
     "github": "https://github.com/ubicloud/ubicloud",
     "x": "https://x.com/UbicloudHQ",
