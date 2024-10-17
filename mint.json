@@ -11,6 +11,11 @@
     "light": "#FF5C12",
     "dark": "#FF5C12"
   },
+  "layout": "solidSidenav",
+  "modeToggle": {
+    "default": "light",
+    "isHidden": true
+  },
   "topbarLinks": [
     {
       "name": "Support",
@@ -18,8 +23,9 @@
     }
   ],
   "topbarCtaButton": {
-    "name": "Console",
-    "url": "https://console.ubicloud.com"
+    "name": "Sign in",
+    "url": "https://console.ubicloud.com",
+    "style": "roundedRectangle"
   },
   "tabs": [
     {
@@ -48,7 +54,7 @@
     {
       "group": "Get Started",
       "pages": [
-        "introduction",
+        "overview",
         "quickstart",
         "development"
       ]
@@ -80,8 +86,8 @@
     }
   ],
   "footerSocials": {
-    "x": "https://x.com/mintlify",
-    "github": "https://github.com/mintlify",
-    "linkedin": "https://linkedin.com/company/mintlify"
+    "github": "https://github.com/ubicloud/ubicloud",
+    "x": "https://x.com/UbicloudHQ",
+    "linkedin": "https://linkedin.com/company/ubicloud"
   }
 }
